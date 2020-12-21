@@ -5,6 +5,7 @@ import java.util.LinkedList;
 public class CQueue {
     LinkedList<Integer> addStack;
     LinkedList<Integer> removeStack;
+
     public CQueue() {
         addStack = new LinkedList<>();
         removeStack = new LinkedList<>();
@@ -20,7 +21,7 @@ public class CQueue {
         }
         if (!removeStack.isEmpty()) {
             return removeStack.removeLast();
-        }else {
+        } else {
             while (!addStack.isEmpty()) {
                 removeStack.addLast(addStack.removeLast());
             }
