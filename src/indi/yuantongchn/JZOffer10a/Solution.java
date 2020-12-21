@@ -27,7 +27,7 @@ public class Solution {
         int a = 0;
         int b = 1;
         int sum = 0;
-        for (int i = 2; i <= n; i++) {
+        for (int i = 2; i <= n; i++) { //索引为n的值表示第n个数
             sum = (a + b) % 1000000007;
             a = b;
             b = sum;
