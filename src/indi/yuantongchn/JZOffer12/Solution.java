@@ -26,7 +26,7 @@ public class Solution {
         if (board[i][j] != target) {
             return false;
         }
-        if(index == word.length() - 1) {
+        if(index == word.length() - 1) { // 判断结束条件
             return true;
         }
         board[i][j] = '\0';//表示空字符
