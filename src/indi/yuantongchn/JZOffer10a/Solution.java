@@ -24,8 +24,8 @@ public class Solution {
         if(n < 2){
             return n;
         }
-        int a = 0;
-        int b = 1;
+        int a = 0;//第0个数
+        int b = 1;//第1个数
         int sum = 0;
         for (int i = 2; i <= n; i++) { //索引为n的值表示第n个数
             sum = (a + b) % 1000000007;
