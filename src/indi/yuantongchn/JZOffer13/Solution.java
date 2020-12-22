@@ -10,7 +10,7 @@ public class Solution {
     }
 
     private int dfs(int m, int n, int k, int i, int j, boolean[][] visited) {
-        if(i < 0 || i >= m || j < 0 || j >= n || visited[i][j]) {
+        if (i < 0 || i >= m || j < 0 || j >= n || visited[i][j]) {
             return 0;
         }
         if (sum(i, j) > k) {
@@ -23,11 +23,11 @@ public class Solution {
 
     private int sum(int i, int j) {
         int res = 0;
-        while(i != 0) {
+        while (i != 0) {
             res += i % 10;
             i = i / 10;
         }
-        while(j != 0) {
+        while (j != 0) {
             res += j % 10;
             j = j / 10;
         }
