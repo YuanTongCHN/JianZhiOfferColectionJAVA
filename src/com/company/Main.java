@@ -1,6 +1,6 @@
 package com.company;
 
-import indi.yuantongchn.JZOffer17.Solution;
+import indi.yuantongchn.JZOffer17_hard.Solution;
 
 public class Main {
 

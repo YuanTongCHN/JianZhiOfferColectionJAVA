@@ -1,4 +1,4 @@
-package indi.yuantongchn.JZOffer17;
+package indi.yuantongchn.JZOffer17_hard;
 
 public class Solution {
     //不可在LC上提交
