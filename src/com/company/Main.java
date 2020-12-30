@@ -10,7 +10,8 @@ public class Main {
 //        aaa.append("abcdefg");
 //        char c = aaa.charAt(2);
 //        System.out.println(c);
-
+        int[] nums = new int[10];
+        int len = nums.length;
 
         Solution solution = new Solution();
         String ans = solution.printNumbers(3);
