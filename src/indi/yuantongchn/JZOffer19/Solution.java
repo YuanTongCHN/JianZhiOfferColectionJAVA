@@ -1,4 +1,4 @@
-package indi.yuantongchn.ZJOffer19;
+package indi.yuantongchn.JZOffer19;
 
 public class Solution {
     public boolean isMatch(String s, String p) {
