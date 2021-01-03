@@ -19,5 +19,6 @@ public class Main {
         Solution solution = new Solution();
         String ans = solution.printNumbers(3);
         System.out.println(ans);
+        String a = "sadasdas";
     }
 }
