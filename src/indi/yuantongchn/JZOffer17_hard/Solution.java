@@ -7,8 +7,10 @@ public class Solution {
             return new String();
         }
         StringBuffer resAns = new StringBuffer();
+        StringBuffer curStr = new StringBuffer();
         for (int i = 0; i <= 9; i++) {
-            dfs(resAns, n , i, new StringBuffer(), 0);
+            dfs(resAns, n , i, curStr, 0);
+            curStr.deleteCharAt(curStr.length() - 1);
         }
         resAns.deleteCharAt(resAns.length() - 1);
         return resAns.toString();
