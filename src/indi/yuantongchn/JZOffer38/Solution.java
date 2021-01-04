@@ -4,13 +4,16 @@ import java.util.HashSet;
 import java.util.Set;
 
 
-class Solution {
+public class Solution {
     public String[] permutation(String s) {
         Set<String> ans = new HashSet<>();
         StringBuffer str = new StringBuffer();
         boolean[] visited = new boolean[s.length()];
         dfs(s, ans, str, visited);
-        String[] res = ans.toArray(new String[ans.size()]);
+        //下面的转化很关键
+        String[] res = new String[ans.size()];
+        res = ans.toArray(res);
+        //
         return res;
     }
     private void dfs(String s, Set<String> ans, StringBuffer str, boolean[] visited) {

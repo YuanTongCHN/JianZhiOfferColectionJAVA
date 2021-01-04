@@ -23,6 +23,7 @@ public class Codec {
     public TreeNode deserialize(String data) {
         data = data.substring(1, data.length() - 1);
         String[] values = data.split(",");
+        //注意下面这一行的转化  Arrays.asList(values)
         LinkedList<String> vals = new LinkedList<>(Arrays.asList(values));
         TreeNode root = dfsOfDeseriralize(vals);
         return root;
