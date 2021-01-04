@@ -26,15 +26,15 @@ public class Main {
 //        List<String> ss = new ArrayList<>(set);
         //String[] strl = (String[]) ss.toArray();
         //System.out.println(strl);
-        StringBuffer stringBuffer = new StringBuffer("[");
-        stringBuffer.deleteCharAt(0);
-        a = stringBuffer.toString();
-        System.out.println(a);
-        String aa = new String(stringBuffer);
-        System.out.println(aa);
-        stringBuffer.append("]");
-        System.out.println(a);
-        System.out.println(aa);
+//        StringBuffer stringBuffer = new StringBuffer("[");
+//        stringBuffer.deleteCharAt(0);
+//        a = stringBuffer.toString();
+//        System.out.println(a);
+//        String aa = new String(stringBuffer);
+//        System.out.println(aa);
+//        stringBuffer.append("]");
+//        System.out.println(a);
+//        System.out.println(aa);
 //        System.out.println(stringBuffer.append("]"));
 //        System.out.println(stringBuffer.append("j"));
 
@@ -43,11 +43,16 @@ public class Main {
 //        System.out.println(Integer.parseInt("123"));
 //
 //
-        List<Integer> intll = new ArrayList<>();
-        intll.add(1);
-        intll.add(2);
-        intll.add(3);
-        Integer[] ints = intll.toArray(new Integer[intll.size()]);
-        System.out.println(ints[0]);
+//        List<Integer> intll = new ArrayList<>();
+//        intll.add(1);
+//        intll.add(2);
+//        intll.add(3);
+//        Integer[] ints = intll.toArray(new Integer[intll.size()]);
+//        System.out.println(ints[0]);
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(1,11);
+        map.put(2,12);
+        map.getOrDefault(0,3);
+        System.out.println(map.get(0));
     }
 }
