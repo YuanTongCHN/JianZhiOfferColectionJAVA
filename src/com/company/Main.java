@@ -53,6 +53,7 @@ public class Main {
         map.put(1,11);
         map.put(2,12);
         map.getOrDefault(0,3);
+        map.put(1,map.getOrDefault(1, 0) + 1);
         System.out.println(map.get(0));
     }
 }
