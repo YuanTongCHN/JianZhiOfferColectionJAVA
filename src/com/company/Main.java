@@ -8,24 +8,13 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-/*
-        Queue<Integer> q = new PriorityQueue<>();
-        q.add(2);
-        q.add(3);
-        System.out.println(q.peek());
-        */
 
-        int[] a = {1, 2, 3};
-        List<Integer> l = new ArrayList<>();
-        for (int i : a) {
-            l.add((i));
-        }
-        System.out.println(l);
-        int[] b = new int[l.size()];
-        for (int i = 0; i < b.length; i++) {
-            System.out.print(b[i] = l.get(i));
-        }
-
+        int a = 123456;
+        String s = Integer.toString(a);
+        int b = Integer.valueOf(s);
+        System.out.println(b);
+        int c = Integer.parseInt(s);
+        System.out.println(c);
 
 
 
