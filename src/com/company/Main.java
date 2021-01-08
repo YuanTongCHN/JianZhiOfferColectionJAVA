@@ -34,6 +34,7 @@ public class Main {
 //        linkedList.addLast(12);
 //        linkedList.addLast(13);
 //        System.out.println(linkedList.get(2));
+        HashSet<Character> keys = new HashSet<>();
 
 
     }

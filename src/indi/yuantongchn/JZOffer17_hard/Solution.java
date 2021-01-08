@@ -2,6 +2,7 @@ package indi.yuantongchn.JZOffer17_hard;
 
 public class Solution {
     //不可在LC上提交
+    //剑指offer书上，利用字符串模拟加法的方法更好
     public String printNumbers(int n) {
         if(n == 0){
             return new String();
