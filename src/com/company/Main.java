@@ -35,6 +35,9 @@ public class Main {
 //        linkedList.addLast(13);
 //        System.out.println(linkedList.get(2));
         HashSet<Character> keys = new HashSet<>();
+        keys.contains(a);
+        Map<Character, Boolean> dic = new HashMap<>();
+
 
 
     }
