@@ -14,6 +14,7 @@ public class Main {
 
         Integer j = 2;
         AtomicInteger b = new AtomicInteger(3);
+        b.set(4);
         int c = b.get();
 
         String s = Integer.toString(a);
