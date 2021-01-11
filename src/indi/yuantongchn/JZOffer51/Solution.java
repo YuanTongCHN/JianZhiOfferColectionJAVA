@@ -45,7 +45,6 @@ public class Solution {
         }
         while (i <= mid) {
             nums[index] = tempNums[i];
-            // res += mid - left + 1;
             i++;
             index++;
         }
