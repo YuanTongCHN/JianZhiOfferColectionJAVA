@@ -7,7 +7,7 @@ public class Solution {
     private int findIndex(int[] nums, int target) {
         int l = 0;
         int r = nums.length - 1;
-        while (l < r) {
+        while (l <= r) {
             int m = (l + r) >> 1;
             if (nums[m] <= target) {
                 l = m + 1;
@@ -15,6 +15,6 @@ public class Solution {
                 r = m - 1;
             }
         }
-        return l - 1;
+        return r;
     }
 }
