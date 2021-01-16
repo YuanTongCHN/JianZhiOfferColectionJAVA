@@ -37,7 +37,14 @@ public class Main {
 //        System.out.println(linkedList.get(2));
         HashSet<Character> keys = new HashSet<>();
         keys.contains(a);
-        Map<Character, Boolean> dic = new HashMap<>();
+        Map<Character, Integer> dic = new HashMap<>();
+        dic.put('a',1);
+        dic.put('b',2);
+        dic.put('c',3);
+        dic.put('d',4);
+        System.out.println(dic.getOrDefault('d',0));
+        System.out.println(dic.containsKey('d'));
+        Set<Character> characters = dic.keySet();
 
 
 

@@ -1,4 +1,4 @@
-package indi.yuantongchn.JZOffer53;
+package indi.yuantongchn.JZOffer53a;
 
 public class Solution {
     public int search(int[] nums, int target) {
