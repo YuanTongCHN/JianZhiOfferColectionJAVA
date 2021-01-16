@@ -9,24 +9,23 @@ class TreeNode {
 
 public class Solution {
     private int ans = 0;
-    private int k;
+    private int step = 1;
     public int kthLargest(TreeNode root, int k) {
-        this.k = k;
-        dfs(root);
+        dfs(root, k);
         return ans;
     }
-    private void dfs(TreeNode node) {
+    private void dfs(TreeNode node, int k) {
         if (node == null) {
             return ;
         }
-        dfs(node.right);
-        if (k == 0) {
+        dfs(node.right, k);
+        if (step > k) {
             return;
         }
-        if (--k == 0) {
+        if (step == k) {
             ans = node.val;
         }
-        dfs(node.left);
+        step++;
+        dfs(node.left, k);
     }
-
 }
