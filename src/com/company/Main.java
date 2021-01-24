@@ -45,7 +45,8 @@ public class Main {
         System.out.println(dic.getOrDefault('d',0));
         System.out.println(dic.containsKey('d'));
         Set<Character> characters = dic.keySet();
-
+        List<Integer[]> ans = new ArrayList<>();
+        
 
 
     }
