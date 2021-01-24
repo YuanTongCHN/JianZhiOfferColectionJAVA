@@ -23,6 +23,7 @@ public class Main {
         System.out.println(s);
         String s1 = String.valueOf(s.charAt(1) + s.charAt(2));
         StringBuffer stb = new StringBuffer();
+        stb.length();
 
         System.out.println(s1);
 //        int b = Integer.valueOf(s);
@@ -46,7 +47,9 @@ public class Main {
         System.out.println(dic.containsKey('d'));
         Set<Character> characters = dic.keySet();
         List<Integer[]> ans = new ArrayList<>();
-        
+        String str = "aaaa";
+
+
 
 
     }

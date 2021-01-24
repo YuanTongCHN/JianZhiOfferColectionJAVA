@@ -1,5 +1,9 @@
 package indi.yuantongchn.JZOffer57b;
 
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int[]> ans = new ArrayList<>();
@@ -26,3 +30,5 @@ public class Solution {
         return ans.toArray(new int[ans.size()][]);
     }
 }
+
+
