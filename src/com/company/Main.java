@@ -31,11 +31,13 @@ public class Main {
 //        int c = Integer.parseInt(s);
 //        System.out.println(c);
 
-//        LinkedList<Integer> linkedList = new LinkedList<>();
-//        linkedList.addLast(11);
-//        linkedList.addLast(12);
-//        linkedList.addLast(13);
-//        System.out.println(linkedList.get(2));
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        linkedList.addLast(11);
+        linkedList.addLast(12);
+        linkedList.addLast(13);
+        linkedList.peekLast();
+
+        System.out.println(linkedList.get(2));
         HashSet<Character> keys = new HashSet<>();
         keys.contains(a);
         Map<Character, Integer> dic = new HashMap<>();
